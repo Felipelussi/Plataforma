@@ -1,0 +1,182 @@
+/* --------- ------------geral------------------- */
+
+body {
+  text-align: center;
+  background-color: #f8f8ff;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  color: #f8efed;
+}
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+/* --------- ------------header------------------- */
+header {
+  background-color: #0f263b;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1% 2%;
+}
+header h1 {
+  text-transform: capitalize;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+  font-size: x-large;
+  font-weight: 400;
+}
+
+header button {
+  padding: 10px 24px;
+  text-transform: uppercase;
+  border-radius: 50px;
+  border-width: 0;
+  background-color: #f8efed;
+  color: #2e5e86;
+  box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.2);
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: "roboto", sans-serif;
+  cursor: pointer;
+}
+
+header li {
+  margin-left: 20px;
+  font-size: 1.5rem;
+}
+
+header li a {
+  color: inherit;
+  text-decoration: none;
+}
+/* --------- ------------section geral------------------- */
+h2 {
+  color: #2e3786;
+  font-size: 36px;
+  text-transform: uppercase;
+  text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
+  margin: 0;
+}
+
+.sc1,
+.sc2 {
+  padding: 80px 0px;
+  color: #2e5e86;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+/* --------- ------------section 1------------------- */
+
+.sc1 p {
+  font-size: 22px;
+  margin: 15px 0 48px 0;
+}
+
+.sc11 {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#sc1111,
+#sc1121,
+#sc1131 {
+  width: 368px;
+  height: 250px;
+  border-radius: 8px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* --------- ------------section 2------------------- */
+.sc2 {
+  background-color: #cdda9e;
+  height: auto;
+}
+
+.sc2 img {
+  width: 50px;
+  height: 50px;
+}
+.sc2 ul {
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px 0;
+}
+.sc2 li {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+h3{
+  font-size: 24px;
+    margin: 12px 0;
+  font-weight: bold;
+}
+.sc2 li p{
+  font-size: 20px;
+  margin: 0;
+}
+
+/* --------- ------------section 2 BANER------------------- */
+
+.sc22{
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+.sc222 img{
+
+  width: 500px;
+  height: 400px;
+  border-radius: 0 20px 20px 0;
+}
+.sc221{
+  width: 600px;
+  height: 400px;
+  background-color: #0f263b;
+    border-radius: 20px 0px 0 20px;
+}
+.sc221 p{
+  font-size: 35px;
+  color: #f8efed;
+  
+}
+.sc2212 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.sc2212 a{
+  padding: 10px 24px;
+  text-transform: uppercase;
+  border-radius: 50px;
+  border-width: 0;
+  text-decoration: none;
+  background-color: #f8efed;
+  color: #2e5e86;
+  box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.2);
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: "roboto", sans-serif;
+  cursor: pointer;
+}
+.sc22121 h4{
+  font-size: 20px;
+  color: #f8efed;
+}
+.sc22121 p{
+  font-size: 15px;
+  color: #f8efed;
+}
+
